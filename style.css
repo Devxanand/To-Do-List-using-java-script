@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://i.pinimg.com/originals/30/52/13/3052136d9b22f4bb60d8457821d81290.gif);
+    background-size: cover;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+form{
+    padding-bottom: 30px;
+}
+input{
+    height: 35px;
+    width: 45vw;
+    font-size: 16px;
+    box-shadow: 0 0 6px white;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+button{
+ padding: 8px;
+ background-color: rgb(19, 128, 101);
+ border-radius: 5px;
+ border: none;
+ color: white;
+ cursor: pointer;
+}
+.my-todo ul{
+    display: flex;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    padding-left: 23px;
+    
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: black;
+    box-shadow: 6px 6px 0px rosybrown;
+    background-color: cadetblue;
+}
+
+.todo-inner{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+    
+}
+.my-todo i{
+   font-size: 20px;
+   padding-right: 23px;
+   color: black;
+}
